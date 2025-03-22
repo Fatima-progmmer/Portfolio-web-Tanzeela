@@ -358,3 +358,70 @@ body {
 .btn-gradient:hover {
     transform: scale(1.05);
 }
+
+
+
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%; /* Make the form wider on smaller screens */
+    }
+
+    .contact-row {
+        flex-direction: column; /* Stack input fields vertically */
+    }
+
+    .contact-row input {
+        width: 100%; /* Full width for small screens */
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h3 {
+        font-size: 18px;
+    }
+
+    .btn-custom {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .image-container::before,
+    .image-container::after {
+        display: none; /* Hide background circles on small screens */
+    }
+}
+
