@@ -304,3 +304,6 @@ body {
 .btn-gradient:hover {
     transform: scale(1.05);
 }
+.project-card a{
+    text-decoration:none;
+}
