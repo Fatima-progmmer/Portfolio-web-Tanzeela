@@ -424,39 +424,3 @@ body {
         display: none; /* Hide background circles on small screens */
     }
 }
-
-@media (max-width: 768px) {
-    .about-image {
-        width: 80%;  /* Adjust width for mobile */
-        max-width: 300px; /* Prevent it from getting too large */
-        height: auto; /* Maintain aspect ratio */
-        display: block;
-        margin: 0 auto; /* Center the image */
-    }
-}
-@media (max-width: 768px) {
-    .about-container {
-        text-align: center; /* Center the content */
-        padding: 20px; /* Adjust spacing */
-    }
-
-    .about-image {
-        width: 80%;
-        max-width: 300px;
-    }
-}
-.about-image {
-    width: 100%; /* Make sure it adapts */
-    max-width: 400px; /* Set a reasonable max width */
-    height: auto; /* Keep the aspect ratio */
-    display: block;
-    margin: 0 auto; /* Center the image */
-}
-
-/* Responsive Fix */
-@media (max-width: 768px) {
-    .about-image {
-        max-width: 250px; /* Smaller max-width for mobile */
-    }
-}
-
