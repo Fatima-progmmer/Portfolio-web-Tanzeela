@@ -262,6 +262,9 @@ body {
     transform: scale(1.05);
     box-shadow: 0px 8px 16px rgba(255, 102, 196, 0.5);
 }
+.project-card a{
+    text-decoration:none;
+}
 
 /* Fade-in Animation */
 @keyframes fadeInUp {
@@ -276,6 +279,7 @@ body {
 }
 
 /* ------------- Contact Section ------------- */
+/* Contact Section */
 .contact-section {
     background-color: #0a0a24;
     text-align: center;
@@ -289,21 +293,68 @@ body {
     margin-bottom: 30px;
 }
 
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-size: 16px;
+    color: white;
+    margin: 10px 0 5px;
+    align-self: flex-start;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #6a5acd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #0a0a23;
+    color: white;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff66c4;
+}
+
+/* Fix form fields alignment */
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-row input {
+    width: 48%; /* Adjust to prevent overflow */
+}
+
 .btn-gradient {
     background: linear-gradient(90deg, #ff007f, #6a5acd);
     color: white;
     font-size: 18px;
     font-weight: bold;
-    padding: 12px;
+    padding: 12px 20px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: transform 0.2s ease, background 0.3s ease;
+    margin-top: 20px;
 }
 
 .btn-gradient:hover {
     transform: scale(1.05);
-}
-.project-card a{
-    text-decoration:none;
 }
