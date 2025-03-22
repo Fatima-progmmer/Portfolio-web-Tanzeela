@@ -445,4 +445,18 @@ body {
         max-width: 300px;
     }
 }
+.about-image {
+    width: 100%; /* Make sure it adapts */
+    max-width: 400px; /* Set a reasonable max width */
+    height: auto; /* Keep the aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .about-image {
+        max-width: 250px; /* Smaller max-width for mobile */
+    }
+}
 
