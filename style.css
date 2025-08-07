@@ -319,16 +319,6 @@ body {
     background: linear-gradient(90deg, #6a5acd, #ff007f);
 }
 
-.footer {
-  background-color: #0b0b25;
-  font-size: 0.9rem;
-}
-.footer a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-
 @media (max-width: 1024px) {
     .hero {
         flex-direction: column;
@@ -474,4 +464,3 @@ body {
         padding: 10px;
     }
 }
-
