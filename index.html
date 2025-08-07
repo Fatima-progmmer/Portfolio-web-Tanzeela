@@ -8,25 +8,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container">
-            <a class="navbar-brand text-white fw-bold" href="#">Tanzeela</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+        <div class="tabs-container">
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="tab1">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </button>
+    <button class="tab-btn" data-tab="tab2">
+      <i class="fas fa-user"></i>
+      <span>About</span>
+    </button>
+    <button class="tab-btn" data-tab="tab3">
+      <i class="fas fa-cog"></i>
+      <span>Skill</span>
+    </button>
+  </div>
+</div>
     </nav>
 
     <div class="container hero">
@@ -130,6 +133,7 @@
 </body>
 
 </html>
+
 
 
 
